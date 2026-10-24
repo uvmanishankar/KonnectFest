@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7cf5f23a93405f14a5f3ba7efaba1034" label="Wallet Transaction" max_length="40" name="x_1811536_konnec_0_wallet_transaction" type="collection">
+        <element label="Balance After" max_length="40" name="balance_after" type="currency"/>
+        <element label="Reference Record" max_length="40" name="reference_record" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Created by" max_length="32" name="created_by" reference="sys_user" type="reference"/>
+        <element label="Amount" max_length="40" name="amount" type="currency"/>
+        <element label="Wallet" max_length="32" name="wallet" reference="x_1811536_konnec_0_wallet" type="reference"/>
+        <element label="Transaction timestamp" max_length="40" name="transaction_timestamp" type="glide_date_time"/>
+        <element choice="1" label="Transaction type" max_length="40" name="transaction_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Expire" sequence="4" value="expire"/>
+                <element inactive_on_update="false" label="Redeem" sequence="2" value="redeem"/>
+                <element inactive_on_update="false" label="Load" sequence="0" value="load"/>
+                <element inactive_on_update="false" label="Adjust" sequence="5" value="adjust"/>
+                <element inactive_on_update="false" label="Refund" sequence="3" value="refund"/>
+                <element inactive_on_update="false" label="Issue" sequence="1" value="issue"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="created_by"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="wallet"/>
+        </index>
+    </element>
+</database>

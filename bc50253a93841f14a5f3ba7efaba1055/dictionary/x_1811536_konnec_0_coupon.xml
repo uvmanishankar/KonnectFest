@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fd6a7a7293805f14a5f3ba7efaba1069" label="Coupon" max_length="40" name="x_1811536_konnec_0_coupon" type="collection">
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Expired" sequence="2" value="expired"/>
+                <element inactive_on_update="false" label="Issued" sequence="0" value="issued"/>
+                <element inactive_on_update="false" label="Void" sequence="3" value="void"/>
+                <element inactive_on_update="false" label="Redeemed" sequence="1" value="redeemed"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Remaining Value" max_length="38" name="remaining_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Face Value" max_length="38" name="face_value" type="decimal"/>
+        <element label="Expiry" max_length="40" name="expiry" type="due_date"/>
+        <element label="Owner wallet" max_length="32" name="owner_wallet" reference="x_1811536_konnec_0_wallet" type="reference"/>
+        <element label="Unique token" max_length="40" name="unique_token" type="string"/>
+        <element label="Campaign" max_length="32" name="campaign" reference="x_1811536_konnec_0_coupon_campaign" type="reference"/>
+        <index name="index">
+            <element name="campaign"/>
+        </index>
+        <index name="index2">
+            <element name="owner_wallet"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

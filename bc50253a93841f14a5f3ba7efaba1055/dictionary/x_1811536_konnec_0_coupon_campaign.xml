@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0787bafa93405f14a5f3ba7efaba107d" label="Coupon Campaign" max_length="40" name="x_1811536_konnec_0_coupon_campaign" type="collection">
+        <element label="Per-participant limit" max_length="40" name="per_participant_limit" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Happy Hour" sequence="3" value="happy_hour"/>
+                <element inactive_on_update="false" label="Item Specific" sequence="1" value="item_specific"/>
+                <element inactive_on_update="false" label="Fixed value" sequence="0" value="fixed_value"/>
+                <element inactive_on_update="false" label="Buy One Get One" sequence="4" value="buy_one_get_one"/>
+                <element inactive_on_update="false" label="Category Restricted" sequence="2" value="category_restricted"/>
+            </choice>
+        </element>
+        <element label="Valid From" max_length="40" name="valid_from" type="glide_date_time"/>
+        <element choice="1" label="Approval State" max_length="40" name="approval_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+            </choice>
+        </element>
+        <element label="Budget" max_length="40" name="budget" type="currency"/>
+        <element label="Valid to" max_length="40" name="valid_to" type="due_date"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

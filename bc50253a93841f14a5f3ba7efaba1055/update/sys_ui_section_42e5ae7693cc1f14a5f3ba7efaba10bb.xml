@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="42e5ae7693cc1f14a5f3ba7efaba10bb" sys_domain="global" table="x_1811536_konnec_0_event" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>0e8a2efe93cc1f14a5f3ba7efaba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>8a8a2efe93cc1f14a5f3ba7efaba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>venue</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>ce8a2efe93cc1f14a5f3ba7efaba106c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_code</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>4e8a2efe93cc1f14a5f3ba7efaba106d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>ca8a2efe93cc1f14a5f3ba7efaba106e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>4a8a2efe93cc1f14a5f3ba7efaba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>c68a2efe93cc1f14a5f3ba7efaba1070</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:51:49</sys_created_on>
+            <sys_id>468a2efe93cc1f14a5f3ba7efaba1071</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811536_konnec_0_event" sys_domain="global" view="Default view">42e5ae7693cc1f14a5f3ba7efaba10bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:51:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1811536_konnec_0_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 10:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42e5ae7693cc1f14a5f3ba7efaba10bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1811536_konnec_0_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="KonnectFest" source="x_1811536_konnec_0">bc50253a93841f14a5f3ba7efaba1055</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="KonnectFest">bc50253a93841f14a5f3ba7efaba1055</sys_scope>
+            <sys_update_name>sys_ui_section_42e5ae7693cc1f14a5f3ba7efaba10bb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 10:31:36</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

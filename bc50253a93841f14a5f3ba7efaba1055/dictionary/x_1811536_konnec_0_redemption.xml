@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fb5b3ef293805f14a5f3ba7efaba10f3" label="Redemption" max_length="40" name="x_1811536_konnec_0_redemption" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Cashier" max_length="32" name="cashier" reference="sys_user" type="reference"/>
+        <element label="Coupon" max_length="32" name="coupon" reference="x_1811536_konnec_0_coupon" type="reference"/>
+        <element label="Amount" max_length="38" name="amount" type="decimal"/>
+        <element choice="1" label="Result code" max_length="40" name="result_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Error" sequence="9" value="error"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="1" value="duplicate"/>
+                <element inactive_on_update="false" label="Wallet frozen" sequence="7" value="wallet_frozen"/>
+                <element inactive_on_update="false" label="Success" sequence="0" value="success"/>
+                <element inactive_on_update="false" label="Expired QR" sequence="5" value="expired_qr"/>
+                <element inactive_on_update="false" label="Insufficient balance" sequence="3" value="insufficient_balance"/>
+                <element inactive_on_update="false" label="Invalid signature" sequence="4" value="invalid_signature"/>
+                <element inactive_on_update="false" label="Expired coupon" sequence="2" value="expired_coupon"/>
+                <element inactive_on_update="false" label="Ineligible coupon" sequence="8" value="ineligible_coupon"/>
+                <element inactive_on_update="false" label="Wrong stall" sequence="6" value="wrong_stall"/>
+            </choice>
+        </element>
+        <element label="Wallet" max_length="32" name="wallet" reference="x_1811536_konnec_0_wallet" type="reference"/>
+        <element label="Stall" max_length="32" name="stall" reference="x_1811536_konnec_0_stall" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Idempotency key" max_length="40" name="idempotency_key" type="string"/>
+        <element label="Fraud Score" max_length="40" name="fraud_score" type="integer"/>
+        <index name="index">
+            <element name="cashier"/>
+        </index>
+        <index name="index2">
+            <element name="coupon"/>
+        </index>
+        <index name="index3">
+            <element name="stall"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index5">
+            <element name="wallet"/>
+        </index>
+    </element>
+</database>

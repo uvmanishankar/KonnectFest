@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4e233a7293405f14a5f3ba7efaba1091" label="Stall" max_length="40" name="x_1811536_konnec_0_stall" type="collection">
+        <element label="Zone" max_length="40" name="zone" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="x_1811536_konnec_0_vendor" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Suspended" sequence="3" value="suspended"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="open"/>
+            </choice>
+        </element>
+        <element choice="3" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Veg" sequence="0" value="veg"/>
+            </choice>
+        </element>
+        <element label="Open hours" max_length="40" name="open_hours" type="glide_date_time"/>
+        <element label="Event" max_length="32" name="event" reference="x_1811536_konnec_0_event" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="result_code" table="x_1811536_konnec_0_redemption" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>result_code</element>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>result_code</sys_name>
+            <sys_package display_value="KonnectFest" source="x_1811536_konnec_0">bc50253a93841f14a5f3ba7efaba1055</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="KonnectFest">bc50253a93841f14a5f3ba7efaba1055</sys_scope>
+            <sys_update_name>sys_choice_x_1811536_konnec_0_redemption_result_code</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>duplicate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expired coupon</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>expired_coupon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insufficient balance</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>insufficient_balance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid signature</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>invalid_signature</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expired QR</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>expired_qr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wrong stall</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>wrong_stall</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wallet frozen</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>wallet_frozen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ineligible coupon</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>ineligible_coupon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>result_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>x_1811536_konnec_0_redemption</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-24 12:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-24 12:11:32</sys_updated_on>
+            <value>error</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
