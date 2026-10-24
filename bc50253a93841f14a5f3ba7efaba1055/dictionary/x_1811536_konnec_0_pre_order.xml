@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="09fcf2f693805f14a5f3ba7efaba1009" label="Pre-Order" max_length="40" name="x_1811536_konnec_0_pre_order" type="collection">
+        <element label="Stall" max_length="32" name="stall" reference="x_1811536_konnec_0_stall" type="reference"/>
+        <element label="Total" max_length="40" name="total" type="currency"/>
+        <element label="Estimated ready time" max_length="40" name="estimated_ready_time" type="glide_date_time"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+                <element inactive_on_update="false" label="Ready" sequence="3" value="ready"/>
+                <element inactive_on_update="false" label="Accepted" sequence="1" value="accepted"/>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Preparing" sequence="2" value="preparing"/>
+                <element inactive_on_update="false" label="Collected" sequence="4" value="collected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Participant" max_length="32" name="participant" reference="sys_user" type="reference"/>
+        <element label="Pickup Token" max_length="40" name="pickup_token" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="participant"/>
+        </index>
+        <index name="index2">
+            <element name="stall"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

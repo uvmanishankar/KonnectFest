@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f77e223a93005f14a5f3ba7efaba105a" label="Vendor" max_length="40" name="x_1811536_konnec_0_vendor" type="collection">
+        <element label="Company Name" max_length="40" name="company_name" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Commission percent" max_length="38" name="commission_percent" type="decimal"/>
+        <element label="Event" max_length="32" name="event" reference="x_1811536_konnec_0_event" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" label="Onboarding state" max_length="40" name="onboarding_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Suspended" sequence="4" value="suspended"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="In Review" sequence="1" value="in_review"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Payout reference" max_length="40" name="payout_reference" type="string"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="owner"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

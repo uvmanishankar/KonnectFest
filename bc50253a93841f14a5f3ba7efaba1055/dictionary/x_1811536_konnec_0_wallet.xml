@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1d35f2b693405f14a5f3ba7efaba1025" label="Wallet" max_length="40" name="x_1811536_konnec_0_wallet" type="collection">
+        <element label="Participant" max_length="32" name="participant" reference="sys_user" type="reference"/>
+        <element label="Current balance" max_length="40" name="current_balance" type="currency"/>
+        <element label="Event" max_length="32" name="event" reference="x_1811536_konnec_0_event" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Frozen" sequence="1" value="frozen"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="participant"/>
+        </index>
+    </element>
+</database>

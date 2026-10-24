@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bce56e7693cc1f14a5f3ba7efaba1070" label="Event" max_length="40" name="x_1811536_konnec_0_event" type="collection">
+        <element label="Refund unused balance" max_length="40" name="refund_unused_balance" type="boolean"/>
+        <element label="Venue" max_length="40" name="venue" type="string"/>
+        <element label="End" max_length="40" name="end" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Event code" max_length="40" name="event_code" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Start" max_length="40" name="start" type="calendar_date_time"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Settled" sequence="3" value="settled"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Live" sequence="1" value="live"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+            </choice>
+        </element>
+        <element label="Maximum wallet balance" max_length="40" name="maximum_wallet_balance" type="currency"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
